@@ -1,0 +1,30 @@
+{
+  "name": "spacex-launch-history",
+  "version": "1.0.0",
+  "description": "App that list SpaceX launch missions",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zimejin/SpaceX-launch-history.git"
+  },
+  "author": "Zimuzo Ejinkeonye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zimejin/SpaceX-launch-history/issues"
+  },
+  "homepage": "https://github.com/zimejin/SpaceX-launch-history#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2",
+    "npm": "^6.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
