@@ -6,7 +6,7 @@ import logo from './logo.png';
 import './App.css';
 
 const client = new ApolloClient({
-  uri: 'http//localhost:5000/graphql'
+  uri: 'http://localhost:5000/graphql'
 });
 
 class App extends Component {
@@ -14,9 +14,12 @@ class App extends Component {
     return (
       <ApolloProvider client={client}>
         <div className="container">
-          <img src={logo} alt="SpaceX"
-            style={{ width: 300, display: 'block', margin: '' }} />
-            <Launches />
+          <img
+            src={logo}
+            alt="SpaceX"
+            style={{ width: 300, display: 'block', margin: '' }}
+          />
+          <Launches />
         </div>
       </ApolloProvider>
     );
