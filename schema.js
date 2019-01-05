@@ -6,7 +6,8 @@ const {
   GraphQLString,
   GraphQLBoolean,
   GraphQLList,
-  GraphQLSchema } = require('graphql');
+  GraphQLSchema 
+} = require('graphql');
 
 // Launch Type
 const LaunchType = new GraphQLObjectType({
